@@ -208,6 +208,25 @@
   
 
       
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../img" class="md-tabs__link">
+        
+  
+  
+    
+  
+  None
+
+      </a>
+    </li>
+  
+
+      
     </ul>
   </div>
 </nav>
@@ -456,67 +475,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#common-settings" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Common Settings
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#running-from-terminal" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Running from Terminal
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Running from Terminal">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#basic-usage" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Basic Usage
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#loading-plugins" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Loading Plugins
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#cli-options" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        CLI Options
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -557,6 +515,33 @@
           </ul>
         </nav>
       
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../img" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    None
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -626,67 +611,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#common-settings" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Common Settings
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#running-from-terminal" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Running from Terminal
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Running from Terminal">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#basic-usage" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Basic Usage
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#loading-plugins" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Loading Plugins
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#cli-options" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        CLI Options
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -728,90 +652,7 @@
 <p>These levels introduce core concepts step-by-step: movement, items, doors, and hazards. Select a level from the dropdown and click <strong>Save</strong> to play.</p>
 <h3 id="custom-levels">Custom Levels</h3>
 <p>Configurable levels for experimentation and testing.</p>
-<table>
-<thead>
-<tr>
-<th>Source</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Procedural Maze</strong></td>
-<td>Randomly generated mazes with adjustable parameters</td>
-</tr>
-<tr>
-<td><strong>Cipher Example</strong></td>
-<td>Micro-levels with cipher-based objectives</td>
-</tr>
-<tr>
-<td><strong>Level Editor</strong></td>
-<td>Visual editor to create your own levels</td>
-</tr>
-</tbody>
-</table>
 <p>Custom levels offer full control over grid size, items, enemies, hazards, powerups, and gameplay rules. Adjust the parameters to create the experience you want.</p>
-<h2 id="common-settings">Common Settings</h2>
-<table>
-<thead>
-<tr>
-<th>Setting</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Random Seed</strong></td>
-<td>Controls randomization for reproducible levels</td>
-</tr>
-<tr>
-<td><strong>Image Map</strong></td>
-<td>Visual asset pack for rendering</td>
-</tr>
-<tr>
-<td><strong>Save</strong></td>
-<td>Apply configuration and start playing</td>
-</tr>
-</tbody>
-</table>
-<h2 id="running-from-terminal">Running from Terminal</h2>
-<h3 id="basic-usage">Basic Usage</h3>
-<p>Run with built-in sources (Intro + Custom levels):</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>grid-play
-</code></pre></div>
-<h3 id="loading-plugins">Loading Plugins</h3>
-<p>Load additional level sources from an installed module:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>grid-play<span class="w"> </span>--plugin<span class="w"> </span>&lt;module_name&gt;
-</code></pre></div>
-<p>Load from a Python file:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>grid-play<span class="w"> </span>--plugin-file<span class="w"> </span>path/to/plugin.py
-</code></pre></div>
-<p>Load multiple plugins:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>grid-play<span class="w"> </span>--plugin<span class="w"> </span>module1<span class="w"> </span>--plugin<span class="w"> </span>module2<span class="w"> </span>--plugin-file<span class="w"> </span>custom.py
-</code></pre></div>
-<h3 id="cli-options">CLI Options</h3>
-<table>
-<thead>
-<tr>
-<th>Option</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>-p</code>, <code>--plugin</code></td>
-<td>Plugin module to import (repeatable)</td>
-</tr>
-<tr>
-<td><code>-f</code>, <code>--plugin-file</code></td>
-<td>Plugin Python file to import (repeatable)</td>
-</tr>
-<tr>
-<td><code>--built-in-sources</code></td>
-<td>Include built-in sources when using plugins</td>
-</tr>
-</tbody>
-</table>
 
 
 
