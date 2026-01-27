@@ -208,25 +208,6 @@
   
 
       
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../img" class="md-tabs__link">
-        
-  
-  
-    
-  
-  None
-
-      </a>
-    </li>
-  
-
-      
     </ul>
   </div>
 </nav>
@@ -449,10 +430,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#intro-levels" class="md-nav__link">
+  <a href="#intro-level-selector" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Intro Levels
+        Intro Level Selector
       
     </span>
   </a>
@@ -460,10 +441,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#custom-levels" class="md-nav__link">
+  <a href="#level-editor" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Custom Levels
+        Level Editor
       
     </span>
   </a>
@@ -519,33 +500,6 @@
   
 
     
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../img" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    None
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
   </ul>
 </nav>
                   </div>
@@ -585,10 +539,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#intro-levels" class="md-nav__link">
+  <a href="#intro-level-selector" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Intro Levels
+        Intro Level Selector
       
     </span>
   </a>
@@ -596,10 +550,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#custom-levels" class="md-nav__link">
+  <a href="#level-editor" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Custom Levels
+        Level Editor
       
     </span>
   </a>
@@ -632,7 +586,11 @@
 <p>The Config tab lets you select and configure game levels before playing.</p>
 <h2 id="level-sources">Level Sources</h2>
 <p>Grid Play provides two types of level sources:</p>
-<h3 id="intro-levels">Intro Levels</h3>
+<ul>
+<li>Intro Level Selector</li>
+<li>Level Editor</li>
+</ul>
+<h3 id="intro-level-selector">Intro Level Selector</h3>
 <p>Pre-designed levels for learning game mechanics.</p>
 <p><img alt="Grid-play-config-tab-intro" src="../../assets/grid-play-config-tab-intro.png" /></p>
 <table>
@@ -650,9 +608,43 @@
 </tbody>
 </table>
 <p>These levels introduce core concepts step-by-step: movement, items, doors, and hazards. Select a level from the dropdown and click <strong>Save</strong> to play.</p>
-<h3 id="custom-levels">Custom Levels</h3>
+<h3 id="level-editor">Level Editor</h3>
 <p>Configurable levels for experimentation and testing.</p>
-<p>Custom levels offer full control over grid size, items, enemies, hazards, powerups, and gameplay rules. Adjust the parameters to create the experience you want.</p>
+<p><img alt="Grid-play-config-tab-editor" src="../../assets/grid-play-config-tab-editor.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Features</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Level Config</strong></td>
+<td>Use Width, Height, Seed, Time Limit, Movement Rule, Objective and Agent Health Selector to choose the configuration of the level</td>
+</tr>
+<tr>
+<td><strong>Entity Pallette, Grid and Preview</strong></td>
+<td>Use the Entitity Pallete and grid to design the level</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Grid-play-config-tab-editor-download" src="../../assets/grid-play-config-tab-editor-download.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Features</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Level Exporter</strong></td>
+<td>The Level exporter generates a function to build the designed level</td>
+</tr>
+</tbody>
+</table>
+<p>Once done, just click save to proceed to Game Page to test out level.</p>
 
 
 
